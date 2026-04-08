@@ -1,0 +1,92 @@
+{
+  "brand": {
+    "name": "TonyHome",
+    "logo": "assets/images/logo.svg",
+    "hotline": "0900 123 456"
+  },
+  "hero": {
+    "title": "Nền tảng bất động sản toàn diện cho người mua hiện đại",
+    "subtitle": "Tìm nhà - so sánh dự án - xem pháp lý - đặt lịch tư vấn trong một nơi.",
+    "image": "assets/images/hero.svg"
+  },
+  "stats": [
+    { "label": "Dự án đã mở bán", "value": "280+" },
+    { "label": "Khách hàng hài lòng", "value": "12.000+" },
+    { "label": "Đối tác phát triển", "value": "150+" },
+    { "label": "Tỉnh thành phủ sóng", "value": "35" }
+  ],
+  "projects": [
+    {
+      "name": "The Skyline Riverside",
+      "location": "Thủ Đức, TP.HCM",
+      "type": "Căn hộ",
+      "price": "Từ 3.2 tỷ",
+      "area": "58 - 110m²",
+      "status": "Đang mở bán",
+      "image": "assets/images/project-1.svg"
+    },
+    {
+      "name": "Green Valley Town",
+      "location": "Biên Hòa, Đồng Nai",
+      "type": "Nhà phố",
+      "price": "Từ 4.8 tỷ",
+      "area": "90 - 140m²",
+      "status": "Sắp mở bán",
+      "image": "assets/images/project-2.svg"
+    },
+    {
+      "name": "Ocean Pearl Villas",
+      "location": "Nha Trang, Khánh Hòa",
+      "type": "Biệt thự",
+      "price": "Từ 9.5 tỷ",
+      "area": "200 - 420m²",
+      "status": "Giỏ hàng giới hạn",
+      "image": "assets/images/project-3.svg"
+    }
+  ],
+  "services": [
+    {
+      "title": "Tư vấn mua ở",
+      "desc": "Khuyến nghị dự án phù hợp tài chính, nhu cầu gia đình và pháp lý.",
+      "image": "assets/images/service-1.svg"
+    },
+    {
+      "title": "Đầu tư cho thuê",
+      "desc": "Mô hình lợi suất, dòng tiền, tỷ lệ lấp đầy theo khu vực.",
+      "image": "assets/images/service-2.svg"
+    },
+    {
+      "title": "Hỗ trợ vay vốn",
+      "desc": "Kết nối ngân hàng, mô phỏng khoản vay và lịch trả nợ linh hoạt.",
+      "image": "assets/images/service-3.svg"
+    }
+  ],
+  "blogs": [
+    {
+      "title": "Xu hướng bất động sản 2026: ưu tiên tiện ích xanh",
+      "date": "08/04/2026",
+      "image": "assets/images/blog-1.svg"
+    },
+    {
+      "title": "5 tiêu chí chọn căn hộ gia đình trẻ",
+      "date": "01/04/2026",
+      "image": "assets/images/blog-2.svg"
+    },
+    {
+      "title": "Checklist pháp lý trước khi đặt cọc",
+      "date": "28/03/2026",
+      "image": "assets/images/blog-3.svg"
+    }
+  ],
+  "testimonial": {
+    "quote": "Quy trình minh bạch, so sánh dự án trực quan và đội ngũ hỗ trợ rất nhanh.",
+    "name": "Nguyễn Minh An",
+    "role": "Khách hàng mua ở",
+    "avatar": "assets/images/testimonial-avatar.svg"
+  },
+  "contact": {
+    "address": "59 Võ Văn Tần, Quận 3, TP.HCM",
+    "email": "hello@tonyhome.vn",
+    "map": "assets/images/map.svg"
+  }
+}
