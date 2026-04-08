@@ -1,0 +1,5 @@
+<svg width="220" height="60" viewBox="0 0 220 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="220" height="60" rx="12" fill="#0F172A"/>
+  <path d="M26 40L42 20L58 40" stroke="#22C55E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="72" y="38" fill="white" font-size="24" font-family="Arial" font-weight="700">TonyHome</text>
+</svg>

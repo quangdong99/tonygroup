@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TonyHome | Nền tảng bất động sản toàn diện</title>
+    <meta name="description" content="Website bất động sản full tính năng: tìm kiếm dự án, lọc theo nhu cầu, đăng ký tư vấn, blog và đánh giá khách hàng." />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav-wrap">
+        <a class="logo-link" href="#" aria-label="Trang chủ">
+          <img id="brandLogo" src="" alt="Logo thương hiệu" />
+        </a>
+        <nav>
+          <ul class="nav-list">
+            <li><a href="#projects">Dự án</a></li>
+            <li><a href="#services">Dịch vụ</a></li>
+            <li><a href="#blog">Tin tức</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+          </ul>
+        </nav>
+        <a id="hotlineBtn" class="btn btn-outline" href="#contact">Hotline</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-content">
+          <p class="pill">Nền tảng tư vấn bất động sản 24/7</p>
+          <h1 id="heroTitle"></h1>
+          <p id="heroSubtitle"></p>
+          <div class="search-box">
+            <input id="projectSearch" type="text" placeholder="Tìm theo tên dự án, khu vực..." />
+            <select id="typeFilter">
+              <option value="all">Tất cả loại hình</option>
+              <option value="Căn hộ">Căn hộ</option>
+              <option value="Nhà phố">Nhà phố</option>
+              <option value="Biệt thự">Biệt thự</option>
+            </select>
+            <button class="btn" id="searchBtn">Tìm ngay</button>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img id="heroImage" src="" alt="Hình ảnh nổi bật" />
+        </div>
+      </section>
+
+      <section class="stats container" id="stats"></section>
+
+      <section class="section container" id="projects">
+        <div class="section-head">
+          <h2>Dự án nổi bật</h2>
+          <p>Lọc theo nhu cầu và xem nhanh thông tin quan trọng.</p>
+        </div>
+        <div class="cards" id="projectGrid"></div>
+      </section>
+
+      <section class="section container" id="services">
+        <div class="section-head">
+          <h2>Dịch vụ tư vấn</h2>
+          <p>Từ nhu cầu an cư đến đầu tư, hỗ trợ trọn vòng đời giao dịch.</p>
+        </div>
+        <div class="cards cards-3" id="serviceGrid"></div>
+      </section>
+
+      <section class="section container testimonial">
+        <img id="testimonialAvatar" src="" alt="Ảnh khách hàng" />
+        <blockquote id="testimonialQuote"></blockquote>
+        <p><strong id="testimonialName"></strong> · <span id="testimonialRole"></span></p>
+      </section>
+
+      <section class="section container" id="blog">
+        <div class="section-head">
+          <h2>Tin tức thị trường</h2>
+          <p>Cập nhật góc nhìn, hướng dẫn mua bán và pháp lý.</p>
+        </div>
+        <div class="cards cards-3" id="blogGrid"></div>
+      </section>
+
+      <section class="section container contact" id="contact">
+        <div>
+          <h2>Đăng ký tư vấn miễn phí</h2>
+          <form id="contactForm">
+            <input type="text" name="name" placeholder="Họ và tên" required />
+            <input type="tel" name="phone" placeholder="Số điện thoại" required />
+            <textarea name="message" rows="4" placeholder="Nhu cầu của bạn"></textarea>
+            <button class="btn" type="submit">Gửi yêu cầu</button>
+          </form>
+          <p id="contactInfo"></p>
+        </div>
+        <img id="contactMap" src="" alt="Bản đồ văn phòng" />
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© <span id="year"></span> <span id="brandName"></span>. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
